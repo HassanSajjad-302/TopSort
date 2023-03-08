@@ -1,5 +1,3 @@
-#include <iostream>
-#include <set>
 #include "TarjanNode.hpp"
 
 struct Widget;
@@ -57,5 +55,5 @@ int main() {
             }
         }
     }
-    auto k = a.allDependencies;
+    auto &k = a.allDependencies;
 }
